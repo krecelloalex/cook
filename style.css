@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+	header {
+		height: auto;
+		background-color: #fff;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    aside {
+        background-color: lightblue;
+    }
+}
+
+
+aside {
+	background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header {
+	height: 69vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+    background: linear-gradient(to bottom right, #ff0300b1, #fff700b1);
+}
+
+header {
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	background-image: url(https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/12/1/FN_Picky-Eaters-Chicken-Nuggets_s4x3.jpg.rend.hgtvcom.616.462.suffix/1383770571120.jpeg);
+}
+
+header h1 {
+	font-size: 10vh;
+}
+
+.me {
+	height: 10vw;
+	width: 10vw;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-image: url(me.jpg);
+	-ms-align-self: flex-start;
+	align-self: flex-start;
+	border-radius: 100vh;
+	margin-top: -5vh;
+	margin-left: 5vh;
+}
